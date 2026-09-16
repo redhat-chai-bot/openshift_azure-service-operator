@@ -1,6 +1,6 @@
 module github.com/Azure/azure-service-operator
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/Azure/aad-pod-identity v1.8.13
@@ -17,7 +17,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gobuffalo/envy v1.10.2
 	github.com/gofrs/uuid v4.4.0+incompatible
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.3.1
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/lib/pq v1.10.9
@@ -88,7 +88,7 @@ require (
 	golang.org/x/time v0.3.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	google.golang.org/protobuf v1.36.12 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
